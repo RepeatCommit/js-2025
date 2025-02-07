@@ -209,7 +209,12 @@ if (coursesAndDurationArray[5].monthDuration > 5){
     console.log('Супер');
 }
 
-
+let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+let number1 = 0;
+while (number1 < numbers.length){
+    console.log(numbers[number1]);
+    number1++;
+}
 
 
 
