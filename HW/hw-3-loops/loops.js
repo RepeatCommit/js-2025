@@ -238,33 +238,33 @@
 // - знайти наібльшу книжку.
 
 
-let books = [
-    {title: 'book1', pages: 100, authors: ['author1', 'author2', 'author33'], genres: ['genre1', 'genre2', 'genre3']},
-    {title: 'book222', pages: 200, authors: ['author3'], genres: ['genre3', 'genre4', 'genre5', 'genre6']},
-    {
-        title: 'book3333',
-        pages: 300,
-        authors: ['author5', 'author6'],
-        genres: ['genre54', 'genre63', 'genre7', 'genre89', 'genre90']
-    },
-    {title: 'book444', pages: 400, authors: ['author7'], genres: ['genre7', 'genre8', 'genre99', 'genre11']},
-    {title: 'book533333', pages: 500, authors: ['author9', 'author10'], genres: ['genre9']},
-    {
-        title: 'book62',
-        pages: 600,
-        authors: ['author11', 'author12', 'author44', 'author78'],
-        genres: ['genre11', 'genre12', 'genre133']
-    },
-    {title: 'book732', pages: 700, authors: ['author13'], genres: ['genre13', 'genre14']},
-    {
-        title: 'book83',
-        pages: 800,
-        authors: ['author15', 'author16'],
-        genres: ['genre15', 'genre156', 'genre175', 'genre182', 'genre194', 'genre200']
-    },
-    {title: 'book92322', pages: 900, authors: ['author17', 'author18'], genres: ['genre17', 'genre168']},
-    {title: 'book103', pages: 1000, authors: ['author19'], genres: ['genre19', 'genre20']},
-];
+// let books = [
+//     {title: 'book1', pages: 100, authors: ['author1', 'author2', 'author33'], genres: ['genre1', 'genre2', 'genre3']},
+//     {title: 'book222', pages: 200, authors: ['author3'], genres: ['genre3', 'genre4', 'genre5', 'genre6']},
+//     {
+//         title: 'book3333',
+//         pages: 300,
+//         authors: ['author5', 'author6'],
+//         genres: ['genre54', 'genre63', 'genre7', 'genre89', 'genre90']
+//     },
+//     {title: 'book444', pages: 400, authors: ['author7'], genres: ['genre7', 'genre8', 'genre99', 'genre11']},
+//     {title: 'book533333', pages: 500, authors: ['author9', 'author10'], genres: ['genre9']},
+//     {
+//         title: 'book62',
+//         pages: 600,
+//         authors: ['author11', 'author12', 'author44', 'author78'],
+//         genres: ['genre11', 'genre12', 'genre133']
+//     },
+//     {title: 'book732', pages: 700, authors: ['author13'], genres: ['genre13', 'genre14']},
+//     {
+//         title: 'book83',
+//         pages: 800,
+//         authors: ['author15', 'author16'],
+//         genres: ['genre15', 'genre156', 'genre175', 'genre182', 'genre194', 'genre200']
+//     },
+//     {title: 'book92322', pages: 900, authors: ['author17', 'author18'], genres: ['genre17', 'genre168']},
+//     {title: 'book103', pages: 1000, authors: ['author19'], genres: ['genre19', 'genre20']},
+// ];
 
 // let maxBook = books[0];
 // for (const book of books) {
@@ -293,16 +293,7 @@ let books = [
 // }
 // console.log(maxBookName);
 
-letmaxBookAuthors = book[0]
 
-let bookWithTwoAuthors = books[0];
-for (const book of books) {
-    if (book.authors.length === 2) {
-        bookWithTwoAuthors = book;
-
-    }
-}
-console.log(bookWithTwoAuthors);
 
 
 
