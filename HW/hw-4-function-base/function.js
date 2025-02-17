@@ -123,10 +123,83 @@
 
 
 
+//arrow type ************************************************************
+
+// let square = (a, b) => a * b;
+// console.log(square(2, 3));
+
+// let radiusOfSquare = (r) => Math.PI * r * r;
+// console.log(radiusOfSquare(2));
+
+// let squareOfCilinder = (r, h) => {
+//     return 2 * Math.PI * r * (r + h);
+// }
+// console.log(squareOfCilinder(2, 3));
+
+// let createArray = (arr) => {
+//     for (const Element of arr) {
+//         console.log(Element);
+//
+//     }
+// }
+//  createArray([1, 2, 3, 4, 5]);
+
+// let paragraph = (msg) => document.write(`<p>${msg}</p>`);
+// paragraph('Hello world');\
+
+// let createUl = (text) => {
+//     document.write(`<ul>`);
+//     for (const i of text) {
+//         document.write(`<li>${i}</li>`);
+//     }
+//     document.write(`</ul>`);
+// }
+// createUl(['Hello', 'world', 'JS']);
+
+// let createUl = (text, num) => {
+//     document.write(`<ul>`);
+//     for (let i = 0; i < num; i++) {
+//         document.write(`<li>${text}</li>`);
+//
+//     }
+//     document.write(`</ul>`);
+// }
+// createUl('Hello world', 3);
 
 
 
 
 
+//
+// описати колоду карт (від 6 до туза без джокерів)
+// - знайти піковий туз
+// - всі шістки
+// - всі червоні карти
+// - всі буби
+// - всі трефи від 9 та більше
+//
+// {
+//     cardSuit: '', // 'spade', 'diamond','heart', 'clubs'
+//         value: '', // '6'-'10', 'ace','jack','queen','king'
+//     color:'', // 'red','black'
+// }
 
 
+let cards = []
+let cardSuit = ['spade', 'diamond', 'heart', 'clubs'];
+let value = ['6', '7', '8', '9', '10', 'jack', 'queen', 'king', 'ace'];
+let color = ['red', 'black'];
+
+// - вивести усі трефи від 9 та більше
+
+for (const cardSuitElement of cardSuit) {
+    for (const valueElement of value) {
+            if (cardSuitElement === 'clubs' && valueElement >= '9') {
+                cards.push({cardSuit: cardSuitElement, value: valueElement,});
+            }
+        }
+
+}
+
+
+console.log(cards);
